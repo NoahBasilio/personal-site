@@ -1,54 +1,82 @@
 body {
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    width: 100%;
-    height: 100%;
-    display: grid;
-    place-items: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-    background: #0f172a;
-    color: #f5eedc;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #0f172a;
+  color: #f5eedc;
 }
 
 .boxes {
-    max-width: 32rem;
-    padding: 2.5rem;
-    background: #252229;
-    border: 5px solid #000000;
-    box-shadow: 10px 10px 10px rgb(0, 0, 0);
-    border-radius: 8px;
+  max-width: 32rem;
+  padding: 2.5rem;
+  background: #252229;
+  border: 5px solid #000000;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0);
+  border-radius: 8px;
 }
 
 h1 {
-    font-size: 25px;
-    margin: 0 0 0.75rem;
+  font-size: 25px;
+  margin: 0 0 0.75rem;
 }
 
 a {
-    color: #e5a93c;
-    text-decoration: none;
-    font-weight: 600;
+  color: #e5a93c;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 a:hover {
-    text-decoration: underline;
-    font-weight: bold;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 a:visited {
-    color: #c98303;
+    color:#c98303;
 }
 
 ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    gap: 1.25rem;
-    margin-top: 1.5rem;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1.25rem;
+  margin-top: 1.5rem;
 }
 
 ul li {
-    color: #e5a93c;
+    color:#e5a93c;
     font-weight: bold;
+}
+
+.line-background { 
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, .2) 1px, transparent 1px), 
+    linear-gradient(to bottom, rgba(255, 255, 255, .2) 1px, transparent 1px); 
+  background-size: 40px 40px; 
+  animation: moveLines 3s linear infinite; 
+  z-index: -1; 
+} 
+
+@keyframes moveLines { 
+  0% { 
+    background-position: 0 0; 
+  } 
+  100% { 
+    background-position: 40px 40px; 
+  } 
+}
+
+h1:not(div h1) {
+    text-align: center;
+    font-size: 40px;
 }
