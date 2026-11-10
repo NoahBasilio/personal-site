@@ -16,7 +16,7 @@ body {
 }
 
 .boxes {
-  max-width: 40rem;
+  max-width: 45rem;
   padding: 2.5rem;
   background: #252229;
   border: 5px solid #000000;
@@ -114,4 +114,9 @@ li.style-features {
   border: 2px solid #e5a93c;
   padding: 0.5rem 1rem;
   border-radius: 4px;
+}
+
+.style-actions {
+  margin-top: 1.25rem;
+  display: flex;
 }
