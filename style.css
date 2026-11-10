@@ -16,7 +16,7 @@ body {
 }
 
 .boxes {
-  max-width: 32rem;
+  max-width: 40rem;
   padding: 2.5rem;
   background: #252229;
   border: 5px solid #000000;
@@ -97,4 +97,21 @@ hr {
   background-color: #ccc;
   margin-left: 0;
   margin-right: auto;
+}
+
+li.style-features {
+  border: 5px solid #000000 !important;
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+  box-shadow: 15px 15px 15px rgb(0, 0, 0);
+}
+
+.style-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #161616;
+  border: 2px solid #e5a93c;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
 }
