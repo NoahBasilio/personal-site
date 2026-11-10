@@ -7,9 +7,7 @@ This is my personal website, I personally took a class which taught web developm
 My personal website is a project I brought to life to show people the things I've created/done! I am a sophomore in High School and I love programming and learning new things, and I wanted to capture all of my learning experiences with this website I made for Pixl!
 
 ### Screenshots
-<img src="https://github.com/user-attachments/assets/0cb44fa3-560f-42d0-90bf-362a5d3dcb2e" 
-     alt="image" 
-     style="max-width: 500px; width: 100%; height: auto;" />
+<img width="679.5" height="432" alt="image" src="https://github.com/user-attachments/assets/0cb44fa3-560f-42d0-90bf-362a5d3dcb2e" />
 
 
 ## Getting Started
